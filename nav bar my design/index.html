@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bird house</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="birds.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+
+<style>
+    
+    body{
+        font-family: "Roboto", serif;
+    }
+</style>
+</head>
+<body class="m-0 p-0">
+    <header>
+        
+
+<nav class="bg-white border-gray-200 placeholder-emerald-100">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="data:image/png;base64,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" class="h-8" alt="..." />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-emerald-500">Fallen Birds</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 text-emerald-500 bg-green-700 rounded md:bg-transparent md:text-emerald-500 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-emerald-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="birds1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="birds2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="birds3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="birds4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="birds5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+  
+    </header>
+    <main>
+
+
+
+<div>
+
+</div>
+
+<section class="py-12">
+    <div>
+        <h1 class="uppercase text-center text-3xl font-semibold text-gray-800">Bird Animal Shelter</h1>
+        <p class="text-gray-700 text-center text-xl mt-2">Donate to some animal and bird shelters.Just a dollar can make such a difference.</p>
+    </div>
+
+    <div class="flex items-center justify-center mt-8 px-5">
+        <div class="grid grid-cols-4 gap-8"> 
+            <!-- card 1 -->
+            <div class="h-[440px] w-72 bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-t-lg" src="card 1.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Hope Haven Animal Shelter</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-28 overflow-hidden">Hope Haven Animal Shelter rescues and provides loving care to abandoned animals, ensuring they find forever homes. </p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Donate now
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- card 2 -->
+            <div class="h-[440px] w-72 bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-t-lg" src="card2.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">The Raptor Center</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-28 overflow-hidden">A leading bird rescue center dedicated to rehabilitating and releasing injured raptors back into the wild.</p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Donate now
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- card 3 -->
+            <div class="h-[440px] w-72 bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-t-lg" src="card3.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">International Bird Rescue</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-28 overflow-hidden">Focuses on rescuing and rehabilitating seabirds and waterfowl impacted by oil spills and other threats.</p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Donate now
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- card 4 -->
+            <div class="h-[440px] w-72 bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-t-lg" src="card4.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">BirdLife International </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-28 overflow-hidden">A conservation organization working globally to protect threatened bird species and their natural habitats.</p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Donate now
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            
+            <!-- card 5 -->
+            <div class="h-[440px] w-72 bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-t-lg" src="card5.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">The Owl Rescue Centre </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-28 overflow-hidden"> Rescues, rehabilitates, and releases owls, focusing on educating the public about owl conservation efforts.</p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Donate now
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- card 6 -->
+            <div class="h-[440px] w-72 bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-t-lg" src="card6.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Wildlife Aid Foundation </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-28 overflow-hidden">A wildlife rescue and rehabilitation center dedicated to treating injured and orphaned birds and animals.</p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Donate now
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- card 7 -->
+            <div class="h-[440px] w-72 bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-t-lg" src="card7.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">The Australian Wildlife Hospital </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-28 overflow-hidden">Specializes in rehabilitating native Australian birds and other wildlife, offering emergency care and long-term recovery.</p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Donate now
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- card 8 -->
+            <div class="h-[440px] w-72 bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-t-lg" src="card10.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Sanctuary Bird Rescue</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-28 overflow-hidden">Provides rescue and rehabilitation for injured, abandoned, and surrendered pet birds, ensuring safe adoption and release.</p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Donate now
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+</section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+</body>
+</html>
